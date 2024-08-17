@@ -6,6 +6,44 @@
     <title>Tea House Resource</title>
     <!-- tailwind css link -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5960bac3ab.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body class="max-w-screen-xl mx-auto px-16 py-4 lg:px-28">
+    <header>
+      <div>
+        <h1 class="text-4xl text-black font-bold">
+          It's good <br />
+          tea time at <br />The Tea House
+        </h1>
+        <p class="text-gray-500 w-2/4 text-sm py-2">
+          Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+          Taste Buds.
+        </p>
+        <button>Explore More</button>
+      </div>
+      <div></div>
+    </header>
+  </body>
 </html>
